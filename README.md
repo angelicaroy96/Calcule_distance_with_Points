@@ -1,20 +1,21 @@
 # Calcule_distance_with_Points
-In the next code using Flask and Python I calculate the distance between from the Moscow Ring Road and a specific addres. The addrees is passed to the aplication in an HTTP request, if the specified address is located inside the MKAD, the distance does not to be calcule. And the result is add in .log file. 
-To calculate the distance between to points I use geopy.
+In the next code, I am using Flask with Python, and I calculate the distance between the Moscow Ring Road and a specific address. 
+ The address is passed to the application in an HTTP request, if the specified address is located inside the MKAD, the distance is not going to be calculated. And the result is added in the .log file. 
+To calculate the distance between two points I use geopy.
 
 ## Instructions
 ### Step 1:
 Check that you have "Anaconda Prompt" installed on your computer.
 ### Step 2:
-If so, open the program and enter the project directory by means of commands as follows:
+If so, open the program and enter the project directory with the line commands, as follows:
 C: \ calculate_distance - copy \
 ### Step 3: 
-Create a virtual_envritment with the version 3.7.4 of Python.
+Create a virtual_envritment with version 3.7.4 of Python.
 ## Step 4:
-After you create the virtual_envirtment, install the necesary packages to run the application; with the next command:
+After you create the virtual_envirtment, install the necessaries packages to run the application; with the next command:
 pip install -r requirements.txt
 ### Step 5: 
-To run the app.py file you need to be in the directory that the file to turn on the Flask server:
+To run the app.py file you need to be in the directory that is the file # app.py to turn on the Flask server:
 C:\calculate_distance\home
 python app.py
 ### Step 6:
