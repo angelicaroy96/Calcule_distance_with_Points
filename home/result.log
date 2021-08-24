@@ -1,0 +1,13 @@
+DEBUG 2021-08-24 09:35:03,980 - 
+Outside of the
+        Area Distance (km): 860.4201662841492
+INFO 2021-08-24 09:35:03,981 - 127.0.0.1 - - [24/Aug/2021 09:35:03] "POST /procesar HTTP/1.1" 200 -
+DEBUG 2021-08-24 09:44:36,558 - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG 2021-08-24 09:44:36,558 - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG 2021-08-24 09:44:36,559 - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Calle+Michurinskaya%2C+19&format=json&limit=1
+DEBUG 2021-08-24 09:44:36,561 - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+DEBUG 2021-08-24 09:44:37,065 - https://nominatim.openstreetmap.org:443 "GET /search?q=Calle+Michurinskaya%2C+19&format=json&limit=1 HTTP/1.1" 200 None
+DEBUG 2021-08-24 09:44:37,069 - 
+Outside of the
+        Area Distance (km): 860.4201662841492
+INFO 2021-08-24 09:44:37,070 - 127.0.0.1 - - [24/Aug/2021 09:44:37] "POST /procesar HTTP/1.1" 200 -
