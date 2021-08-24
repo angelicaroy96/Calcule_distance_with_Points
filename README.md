@@ -7,15 +7,15 @@ To calculate the distance between to points I use geopy.
 Check that you have "Anaconda Prompt" installed on your computer.
 ### Step 2:
 If so, open the program and enter the project directory by means of commands as follows:
-C: \ calculate_distance - copy \ venv \ Scripts
+C: \ calculate_distance - copy \
 ### Step 3: 
-Activate the virtual environment with the following command:
-activate.bat
-### Step 4: 
-Now go to the home folder from "Anaconda prompt" to run the program:
-C: \ calculate_distance - copy \ home
+Create a virtual_envritment with the version 3.7.4 of Python.
+## Step 4:
+After you create the virtual_envirtment, install the necesary packages to run the application; with the next command:
+pip install -r requirements.txt
 ### Step 5: 
-Run the app.py file to turn on the Flask server:
+To run the app.py file you need to be in the directory that the file to turn on the Flask server:
+C:\calculate_distance\home
 python app.py
 ### Step 6:
 When executing the code, it will show you a legend where it will indicate the direction you can execute the code.
